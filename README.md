@@ -52,3 +52,18 @@ uvicorn main:app --host "0.0.0.0" --port 8000 --reload
 <p><img src="screenshort\uvicorn serve.png"></p>
 - fastapi docs: see all enpoint like postman tools
 <p><img src="screenshort\fastapi docs.png"></p>
+
+7. test web in terminal
+- install package
+```
+python -m pip install httpie
+
+http --version
+```
+- add terminal and run output
+```
+http localhost:8000
+or 
+http GET http://localhost:8000/
+```
+<p><img src="screenshort\test output in terminal.png"></p>
