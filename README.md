@@ -1,4 +1,8 @@
 # How to install pyhton
+https://www.youtube.com/watch?v=jVxT7HOcWSo
+
+https://www.youtube.com/watch?v=XnYYwcOfcn8&list=PLqAmigZvYxIL9dnYeZEhMoHcoP4zop8-p
+
 1. install python
 - check python verion
 ```
@@ -67,3 +71,8 @@ or
 http GET http://localhost:8000/
 ```
 <p><img src="screenshort\test output in terminal.png"></p>
+
+8. Create requirements.txt
+```
+pip freeze > requirements.txt
+```
