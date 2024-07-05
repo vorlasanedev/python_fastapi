@@ -76,3 +76,7 @@ http GET http://localhost:8000/
 ```
 pip freeze > requirements.txt
 ```
+- install package from requirements.txt
+```
+pip install -r requirements.txt
+```
