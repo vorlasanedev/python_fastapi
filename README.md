@@ -33,3 +33,22 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 deactivate
 ```
 <p><img src="screenshort\activate venv.png"></p>
+
+5. Activate venv and install any necessary 
+```
+python -m pip install fastapi
+```
+- upgrade pip
+```
+python.exe -m pip install --upgrade pip
+``` 
+<p><img src="screenshort\install fastapi.png"></p>
+- create main.py
+6. run server 
+```
+uvicorn main:app --host "0.0.0.0" --port 8000 --reload
+```
+- result
+<p><img src="screenshort\uvicorn serve.png"></p>
+- fastapi docs: see all enpoint like postman tools
+<p><img src="screenshort\fastapi docs.png"></p>
